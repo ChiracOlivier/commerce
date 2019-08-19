@@ -4,19 +4,19 @@
 <web-app>
   <servlet>
     <servlet-name>CreationClient</servlet-name>
-    <servlet-class>com.mycompany.commerce.src.main.webapp</servlet-class>
+    <servlet-class>com.mycompany.commerce.src.main</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>CreationCommande</servlet-name>
-    <servlet-class>com.mycompany.commerce.src.main.webapp</servlet-class>
+    <servlet-class>com.mycompany.commerce.src.main</servlet-class>
   </servlet>
 
   <servlet-mapping>
     <servlet-name>CreationClient</servlet-name>
-    <url-pattern>/Client</url-pattern>
+    <url-pattern>/CreationClient</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>CreationCommande</servlet-name>
-    <url-pattern>/Commande</url-pattern>
+    <url-pattern>/CreationCommande</url-pattern>
   </servlet-mapping>
 </web-app>
