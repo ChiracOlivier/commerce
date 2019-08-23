@@ -1,7 +1,8 @@
 package com.sdzee.tp.beans;
 
 public class Client {
-    /* Propriétés du bean */
+    /* Propriétés
+     du bean */
     private String nom;
     private String prenom;
     private String adresse;
