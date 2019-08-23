@@ -10,7 +10,14 @@
 <body>
 <c:import url="/menu.jsp" />
 <div>
-    
+    <form method="get" action="<c:url value="/creationClient"/>">
+        <fieldset>
+            <legend>Informations client</legend>
+            <c:import url="/clientForm.jsp" />
+        </fieldset>
+        <input type="submit" value="Valider"  />
+        <input type="reset" value="Remettre à zéro" /> <br />
+    </form>
 </div>
 </body>
 </html>
