@@ -25,18 +25,7 @@
         <fieldset>
             <legend>Informations commande</legend>
 
-            <label for="dateCommande">Date <span class="requis">*</span></label>
-            <input type="text" id="dateCommande" name="dateCommande" value="" size="30" maxlength="30" disabled />
-            <br />
-
-            <label for="montantCommande">Montant <span class="requis">*</span></label>
-            <input type="text" id="montantCommande" name="montantCommande" value="" size="30" maxlength="30" />
-            <br />
-
-            <label for="modePaiementCommande">Mode de paiement <span class="requis">*</span></label>
-            <input type="text" id="modePaiementCommande" name="modePaiementCommande" value="" size="30" maxlength="30" />
-            <br />
-
+          
             <label for="statutPaiementCommande">Statut du paiement</label>
             <input type="text" id="statutPaiementCommande" name="statutPaiementCommande" value="" size="30" maxlength="30" />
             <br />
