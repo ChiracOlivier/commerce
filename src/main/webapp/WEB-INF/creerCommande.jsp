@@ -10,9 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>Création d'une commande</title>
-    <link type="text/css" rel="stylesheet" href="<c:url value="/inc/style.css"/>" />
+   
 </head>
 <body>
 <c:import url="/inc/menu.jsp" />
@@ -35,7 +33,7 @@
 
             <label for="modePaiementCommande">Mode de paiement <span class="requis">*</span></label>
             <input type="text" id="modePaiementCommande" name="modePaiementCommande" value="" size="30" maxlength="30" />
-            <br />  <--A revoir-->
+            <br />
             <label for="statutPaiementCommande">Statut du paiement</label>
             <input type="text" id="statutPaiementCommande" name="statutPaiementCommande" value="" size="30" maxlength="30" />
             <br />
