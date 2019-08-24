@@ -35,8 +35,7 @@
 
             <label for="modePaiementCommande">Mode de paiement <span class="requis">*</span></label>
             <input type="text" id="modePaiementCommande" name="modePaiementCommande" value="" size="30" maxlength="30" />
-            <br />
-
+            <br />  <--A revoir-->
             <label for="statutPaiementCommande">Statut du paiement</label>
             <input type="text" id="statutPaiementCommande" name="statutPaiementCommande" value="" size="30" maxlength="30" />
             <br />
