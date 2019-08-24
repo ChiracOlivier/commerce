@@ -13,18 +13,7 @@ public class Client {
         this.nom = nom;
     }
 
-    public String getNom() {
-        return nom;
-    }
-
-    public void setPrenom( String prenom ) {
-        this.prenom = prenom;
-    }
-
-    public String getPrenom() {
-        return prenom;
-    }
-
+   
     public void setAdresse( String adresse ) {
         this.adresse = adresse;
     }
