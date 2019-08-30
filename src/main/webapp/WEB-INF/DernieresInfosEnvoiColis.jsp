@@ -5,11 +5,6 @@
 <span class="erreur">${form.erreurs['nomClient']}</span>
 <br />
 
-<label for="prenomClient">Prénom </label>
-<input type="text" id="prenomClient" name="prenomClient" value="<c:out value="${client.prenom}"/>" size="30" maxlength="30" />
-<span class="erreur">${form.erreurs['prenomClient']}</span>
-<br />
-
 <label for="adresseClient">Adresse de livraison <span class="requis">*</span></label>
 <input type="text" id="adresseClient" name="adresseClient" value="<c:out value="${client.adresse}"/>" size="30" maxlength="60" />
 <span class="erreur">${form.erreurs['adresseClient']}</span>
